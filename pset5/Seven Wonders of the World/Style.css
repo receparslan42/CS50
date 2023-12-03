@@ -1,0 +1,57 @@
+.header {
+    text-align: center;
+    margin-top: 0px;
+    color: yellow;
+    font-size: 75px;
+  }
+.left{
+    width: 650px;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+}
+.margintop{
+    margin-top: -50px;
+}
+.center{
+    text-align: justify;
+    margin-left: 370px;
+    margin-right: 370px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.left2{
+    width: 550px;
+    float: left;
+    text-align: justify;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.left3{
+    width: 650px;
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.left4{
+    width: 550px;
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 234px;
+}
+.right{
+    width: 750px;
+    float: right;
+    text-align: justify;
+    font-size: 25px;
+}
+.right2{
+    width: 550px;
+    float: right;
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 140px;
+}

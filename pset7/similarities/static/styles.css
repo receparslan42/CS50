@@ -1,0 +1,75 @@
+/* Fill viewport, hide scroll bar */
+html, body
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Ensure content is below navbar */
+div.container-fluid
+{
+    padding-top: 56px;
+}
+
+/* Fill viewport */
+div.container-fluid, div.row, div.col, div.jumbotron
+{
+    height: 100%;
+}
+
+/* Remove padding within column */
+div.col
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Add padding around form */
+form
+{
+    padding: 15px;
+}
+
+/* Wrap and scroll preformatted text */
+pre
+{
+    height: 100%;
+    overflow: auto;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+/* Highlight spans */
+span
+{
+    background-color: #ff0;
+}
+/* File select style*/
+.fileStyle{
+    font-size: 1.3em;
+    padding: 10px 15px;
+    border: 2px dashed black;
+    border-radius: 4%;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+/* Button style*/ 
+#button{
+    font-size: 1.3em;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 4%;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+#selectStyle{
+    width: 418px;
+    font-size: 1.3em;
+    padding: 10px 15px;
+    border: 2px dashed black;
+    border-radius: 4%;
+    margin-left: 500px;
+    margin-top: 10px;
+    text-align: center;
+}
