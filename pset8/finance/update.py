@@ -29,9 +29,12 @@ def update(Tickers):
             currentPrice = Ticker["currentPrice"]
         except:
             currentPrice = Ticker["ask"]
-        
-        bid = Ticker["bid"]
-        ask =Ticker["ask"]
+        try:
+            bid = Ticker["bid"]
+            ask = Ticker["ask"]
+        except:
+            bid = Ticker["currentPrice"]
+            ask = Ticker["currentPrice"]
         change = f"{(currentPrice-Ticker['previousClose'])/Ticker['previousClose']*100:+.2f}%"
         dayLow = Ticker["dayLow"]
         dayHigh = Ticker["dayHigh"]
